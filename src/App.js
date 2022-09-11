@@ -8,75 +8,93 @@ function App() {
       <div className={classes.content}>
         <h1>Все кроссовки</h1>
 
-        <div className="">
-          <img width={133} height={133} src="itemf.jpg" alt=""/>
-          <p></p>
-          <div>
-            <div>
-              <span>Цена:</span>
-              <b>12 990 руб</b>
+        <div className={classes.catalog}>
+          <div className={classes.cart_item}>
+            <img width={133} height={133} src="itemf.jpg" alt=""/>
+            <p>Мужские кроссовки Nike Blazer Mid Suede</p>
+            <div className={classes.cart_info}>
+              <div className={classes.cart_price}>
+                <span>Цена:</span>
+                <b>12 990 руб</b>
+              </div>
+              <button className={classes.cart_btn}>
+                <img width={32} height={32} src="plus.png" alt=""/>
+              </button>
             </div>
-            <button>
-              <img src="plus.png" alt=""/>
-            </button>
+          </div>
+
+          <div className={classes.cart_item}>
+            <img width={133} height={133} src="itemf.jpg" alt=""/>
+            <p>Мужские кроссовки Nike Blazer Mid Suede</p>
+            <div className={classes.cart_info}>
+              <div className={classes.cart_price}>
+                <span>Цена:</span>
+                <b>12 990 руб</b>
+              </div>
+              <button className={classes.cart_btn}>
+                <img width={32} height={32} src="plus.png" alt=""/>
+              </button>
+            </div>
+          </div>
+
+          <div className={classes.cart_item}>
+            <img width={133} height={133} src="itemf.jpg" alt=""/>
+            <p>Мужские кроссовки Nike Blazer Mid Suede</p>
+            <div className={classes.cart_info}>
+              <div className={classes.cart_price}>
+                <span>Цена:</span>
+                <b>12 990 руб</b>
+              </div>
+              <button className={classes.cart_btn}>
+                <img width={32} height={32} src="plus.png" alt=""/>
+              </button>
+            </div>
+          </div>
+
+          <div className={classes.cart_item}>
+            <img width={133} height={133} src="itemf.jpg" alt=""/>
+            <p>Мужские кроссовки Nike Blazer Mid Suede</p>
+            <div className={classes.cart_info}>
+              <div className={classes.cart_price}>
+                <span>Цена:</span>
+                <b>12 990 руб</b>
+              </div>
+              <button className={classes.cart_btn}>
+                <img width={32} height={32} src="plus.png" alt=""/>
+              </button>
+            </div>
+          </div>
+
+          <div className={classes.cart_item}>
+            <img width={133} height={133} src="itemf.jpg" alt=""/>
+            <p>Мужские кроссовки Nike Blazer Mid Suede</p>
+            <div className={classes.cart_info}>
+              <div className={classes.cart_price}>
+                <span>Цена:</span>
+                <b>12 990 руб</b>
+              </div>
+              <button className={classes.cart_btn}>
+                <img width={32} height={32} src="plus.png" alt=""/>
+              </button>
+            </div>
+          </div>
+
+          <div className={classes.cart_item}>
+            <img width={133} height={133} src="itemf.jpg" alt=""/>
+            <p>Мужские кроссовки Nike Blazer Mid Suede</p>
+            <div className={classes.cart_info}>
+              <div className={classes.cart_price}>
+                <span>Цена:</span>
+                <b>12 990 руб</b>
+              </div>
+              <button className={classes.cart_btn}>
+                <img width={32} height={32} src="plus.png" alt=""/>
+              </button>
+            </div>
           </div>
         </div>
 
-        <div className="">
-          <img width={133} height={133} src="itemf.jpg" alt=""/>
-          <p></p>
-          <div>
-            <div>
-              <span>Цена:</span>
-              <b>12 990 руб</b>
-            </div>
-            <button>
-              <img src="plus.png" alt=""/>
-            </button>
-          </div>
-        </div>
 
-        <div className="">
-          <img width={133} height={133} src="itemf.jpg" alt=""/>
-          <p></p>
-          <div>
-            <div>
-              <span>Цена:</span>
-              <b>12 990 руб</b>
-            </div>
-            <button>
-              <img src="plus.png" alt=""/>
-            </button>
-          </div>
-        </div>
-
-        <div className="">
-          <img width={133} height={133} src="itemf.jpg" alt=""/>
-          <p></p>
-          <div>
-            <div>
-              <span>Цена:</span>
-              <b>12 990 руб</b>
-            </div>
-            <button>
-              <img src="plus.png" alt=""/>
-            </button>
-          </div>
-        </div>
-
-        <div className="">
-          <img width={133} height={133} src="itemf.jpg" alt=""/>
-          <p></p>
-          <div>
-            <div>
-              <span>Цена:</span>
-              <b>12 990 руб</b>
-            </div>
-            <button>
-              <img src="plus.png" alt=""/>
-            </button>
-          </div>
-        </div>
       </div>
     </div>
   );
