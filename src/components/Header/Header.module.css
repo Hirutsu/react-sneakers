@@ -1,0 +1,19 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding-bottom: 40px;
+}
+
+.header_info{
+    align-items: center;
+}
+
+.header_right_info {
+    display: flex;
+}
+
+.cart {
+    margin-right: 25px;
+}
