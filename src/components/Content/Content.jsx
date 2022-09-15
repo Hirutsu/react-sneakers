@@ -1,10 +1,12 @@
-import classes from './Content.module.css'
+import Catalog from '../Catalog/Catalog';
+import classes from './Content.module.scss'
 
 function Content() {
     return(
-        <div>
-            <h1>Все кроссовки</h1>
-            ...
-        </div>
+      <div className={classes.content}>
+        <Catalog/>
+      </div>
     );
 }
+
+export default Content;
